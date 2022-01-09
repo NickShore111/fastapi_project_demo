@@ -1,10 +1,18 @@
 # fastapi_project_demo
 
-## Goal
+## Project Goal
 - Develop an API using Python to record posts, content, users, and votes using the following modules:
   - FastAPI
   - Pydantic
   - SQLAlchemy
+  - Alembic
 - Use Postman Agent for testing and development
+  - Setup testing environment and variables
 - Database backend utilizes PostgresQL
-- Deploy to Heroku
+  - Utilizes many-to-one relationship
+- Deploy on Heroku
+
+## API Details
+- Requires user creation and login
+- Authentication using OAuth2 JWT Bearer token
+- Utilizes Pydantic schemas for data I/O validation
