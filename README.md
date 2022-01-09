@@ -10,7 +10,7 @@
   - Setup testing environment and variables
 - Database backend utilizes PostgresQL
   - Utilizes many-to-one relationship
-- Deploy on Heroku
+- Deploy on Heroku and live ![here](https://fastapi-nickshore.herokuapp.com/docs)
 
 ## API Details
 - Requires user creation and login
